@@ -40,7 +40,39 @@ body {
 
 .input-group {
 width: 100%;
+flex: 1;
+margin: 5px;
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input,button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #575050;
+    border-radius: 10px;
+}
+
+button {
+    width: 93%;
+    background: #007bFF;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+width: 90%;
+padding: 8px;
+border: 1px solid #cccc;
+border-radius: 10px;
+text-align: center;
+
 }
