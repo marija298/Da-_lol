@@ -74,5 +74,20 @@ padding: 8px;
 border: 1px solid #cccc;
 border-radius: 10px;
 text-align: center;
+}
 
+#results{
+    width: 45%;
+    background: #9fd489;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba( 0,0,0,0.1);
+    text-align: center;
+}
+
+.result-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
 }
