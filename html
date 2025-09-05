@@ -7,4 +7,63 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        
+        <div class="container"> <!--galvenais konteiners-->
+            
+            <h2>Ķermeņa masaa</h2>
+            <div class="calculator"><!--kalkulatora konteiners-->
+            <div class="input-container"><!--ievades konteiners--> 
+               <div class="input-group"><!--ievade,telpas platums-->
+                   <label>augsums (cm)</label>
+                   <input type="number"id="roomWidth"step="0.01">
+   
+               </div>
+               <div class="input-group"><!--ievade,telpas garums-->
+                   <label>svars(kg)</label>
+                   <input type="number"id="roomLength"step="0.01">
+   
+               </div>
+            
+               <div class="input-group"><!--ievade,linoleja cena-->
+                   <label>Linoleja cena (EUR/m2)</label>
+                   <input type="number"id="linoliumPrice"step="0.01">
+   
+               </div>
+            <div class="button-group">
+               <button>Aprēķināt</button>
+            </div>
+            </div><!--ievades konteiners beidzas-->
+            <div id="results"class="input-container"><!--izvades konteiners--> 
+                   <h3>Rezultāti</h3>
+                   <div class="result-row"> <!--Noperkamā linoleja garums-->
+                      <div class="input-group">
+                       <label> Garums gareniski</label>
+                       <input type="text" id="lengthLong" readonly>
+                      </div>
+                      <div class="input-group">
+                       <label> šķērsām</label>
+                       <input type="text" id="lengthCross" readonly>
+                      </div>
+                     
+                       </div>
+                       
+                          
+                            </div>
+                            <div class="result-row"> <!--Noperkamā linoleja garums-->
+                               <div class="input-group">
+                                <label> Atgriezumi</label>
+                                <input type="text" id="lengthLong" readonly>
+                               </div>
+                               <div class="input-group">
+                                <label> šķērsām</label>
+                                <input type="text" id="lengthCross" readonly>
+                               </div>
+                              
+                                </div>
+   
+                   </div>
+            </div><!--izvades konteiners beidzas-->
+       
+             </div><!--kalkulatora konteiners beidzas-->
+   
+           </div><!--beidzas galvenais konteiners-->
+    </body>
